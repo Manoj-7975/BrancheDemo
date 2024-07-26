@@ -1,9 +1,14 @@
 import React from 'react';
-
+import Attendence from './Attendence';
+import Classes from './Classes';
 function App() {
   return (
     <>
-    <h1>hello</h1>
+    <h1>
+      Kodnest App
+      <Classes />
+      <Attendence />
+    </h1>
     </>
   );
 }
